@@ -8,7 +8,7 @@ This is empty on purpose! Your code to build the resume will go here.
 				"mobile" : "510-990-7674",
 				"email" : "hamzah.awn@berkeley.edu",
 				"github" : "Awnallah",
-				"location" : "San Francisco, Bay Area"
+				"location" : "Richmond, CA"
 			},
 			"welcomemessage" : "I'm glad to see you in my page",
 			"skills" : ["JavaScript", "HTML", "CSS", "jQuery", "Java", "MATLAB", "MCNP", "RELAP5"],
@@ -172,3 +172,17 @@ var projects ={"projects" : [{"title" : "Preliminary Safety Analysis Report",
 				}};
 
 projects.display();
+$("#mapDiv").append(googleMap);
+
+
+// $("#main").append(internationalizeButton);
+// inName(bio.name);
+
+// function inName (name){
+// 	name = name.toLowerCase();
+// 	names = name.split(" ");
+// 	names[0] = names[0].slice(0,1).toUpperCase() + names[0].slice(1);
+// 	names[1] = names[1].toUpperCase();
+// 	name = names.join(" ");
+// 	console.log(name)
+// }
